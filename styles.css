@@ -15,6 +15,18 @@ h1 {
     margin: 0;
 }
 
+button {
+    font-family: 'timer';
+    background: none;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+}
+
+button:hover {
+    background: #9aabd850;
+}
+
 .main {
     margin: 0 auto;
     width: 575px;
@@ -34,11 +46,6 @@ h1 {
 }
 
 .add-btn {
-    font-family: 'timer';
-    background: none;
-    border: 2px solid #9AABD8;
-    border-radius: 5px;
-    color: #9AABD8;
     margin-top: 20px;
     padding: 9px;
     font-size: 15px;
@@ -62,13 +69,7 @@ h1 {
 }
 
 #new-game-btn {
-    font-family: 'timer';
-    background: none;
-    border: 2px solid #9AABD8;
-    border-radius: 5px;
-    color: #9AABD8;
     font-size: 20px;
-
     padding: 10px 20px;
     margin-top: 30px;
 }
